@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=The+Nautigal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.navbar{
+    display: block;
+    height: 80px;
+    width: 100%;
+    position:fixed;
+    top: 0;
+    background-color: rgb(66, 175, 162);
+    
+}
+.navbar ul{
+    float: left;
+    margin: 10px,0,0,0;
+    padding: 0;
+    word-spacing: 20px;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-top:12px;
+    margin-left: 30px;
+    
+}
+.navbar ul li a{
+    color:rgba(0, 0, 0,0.5);
+    text-decoration: none;
+    font-size: 25px;
+}
+.my-name{
+    width: 120px;
+    font-size: 50px;
+    margin: 0 auto 0 auto ;
+    font-family: 'The Nautigal', cursive;
+    letter-spacing: 9px;
+}
+p{
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+    
+}
+.profession{
+    
+}
+.top-container{
+    /* position: relative; */
+    padding-top: 80px;
+    background-color: #9bedde;
+    height: 650px;
+    width: 100%;
+}
+.top-cloud{
+     height: 100px;
+     width: 140px;
+     opacity: 0.7;
+     margin-left:400px;
+}
+.bottom-cloud{
+    height: 100px;
+    width: 140px;
+    opacity: 0.7;
+    margin-right: 400px;
+}
+.mountain{
+    height: 200px;
+    width: 40%;
+    margin-top: 20px;
+}
+.middle-container{
+    height: 1500px;
+    width:100%;
+    background-color:#cef4ed;   
+}
+.profile{
+    height: 150px;
+    width: 150px;
+    margin-top: 40px;
+    border:none;
+    border-radius: 50%;
+    text-align: center;
+}
+.hi{
+    margin-top: 10px;
+    color: #057e68;
+    font-family: 'The Nautigal', cursive;
+}
+.middle-container p{
+    font-size: 15px;
+}
+.dot{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(100, 94, 94);
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.question{
+    font-family:monospace;
+    font-size: 40px;
+    letter-spacing: 4px;
+    color: #057e68;
+}
+.first-half{
+    height: 200px;
+    width: 49%;
+    float: left;
+    margin-top: 40px;
+}
+.first-half img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 60px;
+    margin-top: 20px;
+}
+.second-half{
+    height: 200px;
+    width: 49%;
+    float: right;
+    margin-top: 40px;
+}
+.third-half{
+    width: 5px;
+    float: left;
+    height: 240px;
+    margin-top: 15px;
+    background-color: green;
+}
+.design-asking{
+    color: #057e68;
+}
+.para-hidden{
+    opacity: 0;
+}
+.need{
+    margin-top: 70px;
+}
+.fourth-half{
+    height: 200px;
+    width: 60%;
+    float: left;
+    margin-top: 40px;
+}
+.fifth-half{
+    height: 200px;
+    width: 34%;
+    float: left;
+    margin-top: 40px;
+}
+.fifth-half img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.sixth-half{
+    width: 5px;
+    float: left;
+    height: 240px;
+    margin-top: 15px;
+    background-color: green;
+}
+.help h2{
+    margin-top: 400px;
+    color: #057e68;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-weight: 200;
+}
+.help h3{
+    color: #1ca189;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+}
+.help p{
+    font-weight: 400;
+}
+.help button{
+    padding: 10px 30px;
+    background-color: #9bedde;
+    border-radius: 4px;
+}
+.help button a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: rgba(0, 0, 0,0.5);
+}
+.help img{
+    margin-right: 5px;
+    width: 20px;
+}
+.bottom-container{
+    height: 150px;
+    width: 100%;
+    background-color: #9bedde;
+}
+.bottom-container div{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.bottom-container a{
+    background-color: #9bedde;
+    font-size: 25px;
+    color: rgb(95, 80, 80);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+}
+.bottom-container h3{
+    color: rgb(95, 80, 80);
+    margin-top: 30px;
+}
+.facebook{
+    height: 30px;
+    margin-right: 3px;
+    margin-top: 10px;
+}
+.linkedin{
+    height: 30px;
+}
